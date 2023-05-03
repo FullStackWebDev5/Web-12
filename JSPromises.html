@@ -102,6 +102,28 @@
 		// }).catch((err)=>{
 		// 	console.log(err)
 		// })
+
+		// # Promise.all: 
+		// - To handle multiple promises together
+		// - Resolve, if all promises resolve, else will reject
+		// let promise1 = new Promise((resolve, reject) => {
+		// 	setTimeout(() => {
+		// 		resolve(100)
+		// 	}, 2000)
+		// })
+
+		// let promise2 = new Promise((resolve, reject) => {
+		// 	setTimeout(() => {
+		// 		reject(200)
+		// 	}, 6000)
+		// })
+
+		// let promiseArray = [promise1, promise2]
+		// Promise.all(promiseArray).then((resolvedValue) => {
+		// 	console.log('Hi', resolvedValue)
+		// }).catch((rejectedValue) => {
+		// 	console.log('Bye', rejectedValue)
+		// })
 	</script>
 </head>
 <body>
