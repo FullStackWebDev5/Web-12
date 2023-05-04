@@ -124,6 +124,37 @@
 		// }).catch((rejectedValue) => {
 		// 	console.log('Bye', rejectedValue)
 		// })
+
+		// ## Async Await
+		// 1. Declare the promise
+		// let promise1 = new Promise((resolve, reject) => {
+		// 	setTimeout(() => {
+		// 		reject(5)
+		// 	}, 2000)
+		// })
+
+		// 2. Handle the promise
+		// promise1.then((resolvedValue) => {
+		// 	console.log('Hi', resolvedValue)
+		// }).catch((rejectedValue) => {
+		// 	console.log('Bye', rejectedValue)
+		// })
+
+		// await: greedy for 'resolved state' and returns the resolvedValue
+
+		// const handlePromise = async () => {
+		// 	try {
+		// 		let resolvedValue = await promise1
+		// 		console.log(resolvedValue)
+		// 	} catch (rejectedValue) {
+		// 		console.log(rejectedValue)
+		// 	}
+		// }
+		// handlePromise()
+
+		// async function handlePromise () {}
+		// let handlePromise = async function () {}
+		// let handlePromise = async () => {}
 	</script>
 </head>
 <body>
